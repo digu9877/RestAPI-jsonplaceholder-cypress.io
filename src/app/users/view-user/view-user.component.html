@@ -1,0 +1,9 @@
+
+<mat-card class="userDetails" *ngIf="userDetails"> <mat-card-title>{{userDetails.name}}</mat-card-title>
+  <mat-card-content>
+   ID: {{userDetails.id}}<br><br>
+   PhoneNo: {{userDetails.phone}}<br><br>
+   Email: {{userDetails.email}}<br><br>
+   City: {{userDetails.address.city}}<br><br>
+  </mat-card-content>
+</mat-card>
